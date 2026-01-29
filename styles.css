@@ -225,3 +225,20 @@ section.bg-dark.text-white.py-5::after {
   box-shadow: 0 0 25px rgba(0, 224, 255, 0.9);
   border-color: #ffffff;
 }
+
+/* Estilos para la sección de artículos */
+.article-link {
+  text-decoration: none;
+  color: #b0c4de; /* Color acorde a tus tarjetas de proyecto */
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.article-link:hover {
+  color: #00e0ff; /* Tu azul neón */
+  padding-left: 10px; /* Pequeño desplazamiento al hacer hover */
+}
+
+#articulos .list-group-item:hover {
+  background-color: rgba(0, 224, 255, 0.05) !important;
+}
